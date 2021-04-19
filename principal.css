@@ -1,0 +1,70 @@
+body {
+    font-family: 'Muli', sans-serif;
+    margin: 0px;
+  
+    background-image: url('../imagenes_chronos/clock.jpg');
+}
+.titulo{
+    color: white;
+}
+.h1,h2{
+    color: white;
+}
+.input{
+    border-radius: 25px;
+    border: 2px solid ;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    height: 50px;
+    padding: 0px 20px;
+    width: 70%;
+}
+.contenedor2{
+    text-align: center;
+}
+.contenedor3{
+    text-align: center;
+}
+
+* { margin: auto; padding: 0; 
+}
+
+h1 { padding: 0.5em; 
+    text-align: center; 
+}
+#cronometro { 
+    padding:10px; 
+    border: 3px white double; 
+    width: 200px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+#reloj { 
+    padding: 5px 10px; 
+    width: 170px;
+    border: 1px solid transparent; 
+    font: bold 1.5em digital, europa, arial; text-align: center; 
+    margin: 4px  }
+
+#cronometro [type=button]  { margin: 4px; font: normal 9pt arial } 
+
+
+
+.boton_atras{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+}
+.boton_atras:hover{
+    color: #1883ba;
+    background-color: #ffffff; 
+}
+
